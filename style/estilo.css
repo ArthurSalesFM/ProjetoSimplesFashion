@@ -1,0 +1,138 @@
+:root{
+    --padding-default-grande: 6.5em;
+    --padding-default-medio: 4em;
+}
+
+body{
+    font-family: "Roboto", tahoma, arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+#principal{
+    width: 64em;
+    margin: 1.25em auto;
+}
+
+h1, h2{
+    font-family: "Viaoda Libre", cursive;
+    font-weight: normal;
+}
+
+.header-top{
+    background: #162028;
+    display: flex;
+    justify-content: space-between;
+}
+
+.logotipo{
+    margin: .5em 0 .5em 8.4375em;
+    color: white;
+}
+
+.header-nav ul{
+    margin: 0;
+    padding: 0;
+}
+
+.header-nav li{
+    list-style: none;
+    display: inline-block;
+    margin: 0 1em 0 0;
+    padding: 1em;
+}
+
+.header-nav a{
+    color: #425564;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: .8em;
+    letter-spacing: .15em;
+    transition: color .3s linear;
+}
+
+.header-nav a:hover{
+    color: white;
+}
+
+.portifolio{
+    padding: var(--padding-default-medio) var(--padding-default-grande);
+    text-align: center;
+}
+
+.portifolio h1{
+    font-size: 2.25em;
+    color: #252525;
+}
+
+.portifolio p{
+    font-size: 1em;
+    line-height: 2;
+    color: #555;
+}
+
+.galeria{
+    color: #555;
+    padding: 0 var(--padding-default-grande) var(--padding-default-medio);
+    display: flex;
+    justify-content: space-between;
+}
+
+.galeria2{
+    color: #555;
+    padding: 0 var(--padding-default-grande) var(--padding-default-medio);
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.galeria-cartao{
+    text-align: center;
+}
+
+.galeria2-cartao{
+    text-align: center;
+}
+
+.galeria-titulo{
+    text-transform: uppercase;
+    letter-spacing: .15em;
+    font-size: 1em;
+    font-weight: bold;
+}
+
+.galeria2-titulo{
+    text-transform: uppercase;
+    letter-spacing: .15em;
+    font-size: 1em;
+    font-weight: bold;
+}
+
+.sobre{
+    background-color: #003d52;
+    padding: var(--padding-default-grande);
+    color: white;
+    background-image: url(../imagens/bg_detalhe.png);
+    background-repeat: no-repeat;
+    background-position: right bottom;
+}
+
+.sobre h2{
+    text-transform: uppercase;
+    font-size: 3em;
+    font-weight: normal;
+}
+
+.sobre p{
+    line-height: 1.5;
+    width: 85%;
+    text-align: justify;
+}
+
+.rodape{
+    background: #0b171f;
+    padding: 1.8em;
+    font-size: .75em;
+    color: #6f8597;
+    letter-spacing: .3em;
+    text-align: center;
+}
