@@ -1,4 +1,4 @@
-# Projeto Fashion com HTML5 e CSS
+# Projeto Fashion com HTML5 e CSS sem responsividade
 
 **Desenvolvido por** *Arthur Felipe MS*
 
